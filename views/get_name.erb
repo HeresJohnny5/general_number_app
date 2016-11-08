@@ -1,0 +1,33 @@
+Hi there, what is your name?
+
+<form action="name" method="post">
+	<input type="text" name="user_name"> 
+	<input type="submit">
+</form>
+
+<!-- How forms work: A user fills in a form and then presses a button to submit the information to the server. 
+The name of each form control is sent to the server along with the value the user enters or selects.
+The server processes the information using a programming language. It may also store the information in a database.
+The server creates a new page to send back to the browser based on the information received. -->
+
+<!-- Form controls live inside a <form> element. This element should always carray the action attribute.
+Along with the action attribute you'll usually see both method and id attributes too. -->
+
+<!-- Every <form> element requires an action attribute. It's value is the URL for the page on the server that will receive the information in the form when it is submitted. -->
+
+<!-- Forms can be sent using one of two methods: get or post:
+With the get method, the values from the form are added to the end of the URL specified in the action attribute. The get method is ideal for:
+	-Short forms (such as search boxes)
+	-When you are just retrieving data from the web server (not sending)
+With the post method the values are sent in what are known as HTTP headers. As a rule of thumb you should use the post method if your form:
+	-Allows users to upload a file
+	-Is very long
+	-Contains sensative data i.e. passwords
+	-Adds information to, or deletes information from, a database
+If the method attribute is not used, the form data will be sent using the get method by default. -->
+
+<!-- The <input> element is used to create several different form controls. The value of the type attribute determines what kind of input they will be creating. -->
+
+<!-- When the type attribute has a value of text, it creates a single line text input.  -->
+
+<!-- When users enter information into a form, the server needs to know which form control each piece of data was entered into. (For example, in a login form, the server needs to know what has been entered as the username and what has been given as the password.) Therefore, each form control requires a name attribute. The value of this attribute identifies the form control and is sent along with the information they enter to the server. -->

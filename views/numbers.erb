@@ -1,0 +1,15 @@
+<%= your_name%>, your age is <%= your_age%>. 
+<br/>
+Whare are your 3 favorite numbers?
+
+<form action="numbers" method="post">
+	<input type="number" name="fav_num1"> <i>Favorite Number 1</i>
+	<br/>
+	<input type="number" name="fav_num2"> <i>Favorite Number 2</i>
+	<br/>
+	<input type="number" name="fav_num3"> <i>Favorite Number 3</i>
+	<br/>
+	<input type="text" name="user_name" value=<%= your_name%> hidden>
+	<input type="number" name="user_age" value=<%= your_age%> hidden>
+	<input type="submit">
+</form>
