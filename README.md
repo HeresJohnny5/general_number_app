@@ -1,6 +1,6 @@
 # Simple General Number App
 
-This is a general number app which will do the following:
+This is a general number app which will do the following
 1. Take the user's name
 2. Take the user's age
 3. Take the user's 3 favorite numbers
