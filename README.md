@@ -12,3 +12,5 @@ This is a general number app which will do the following:
 ## Run app.rb to run the app
 
 End results come from *post '/numbers'* calling *function.rb*
+
+If you don't have *sinatra-reloader gem* please hash out **require 'sinatra/reloader' if development?** on app.rb
